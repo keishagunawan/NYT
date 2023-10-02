@@ -9,6 +9,7 @@ git pull origin main (seallu update codingan main)
 lalu koding aja buat file background
 
 masukin ke branch:
+git checkout calandra
 
 git add .
 git commit -m "mesg apapun"
