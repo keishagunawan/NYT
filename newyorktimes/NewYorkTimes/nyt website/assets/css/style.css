@@ -1,0 +1,654 @@
+header {
+    color: #333;
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: "NewYorkTimes";
+    src: url("Chomsky.woff2") format('woff2');
+    }
+
+h1 {
+    font-size: 65px;
+    margin: 0;
+    /* font-family: Ancient Medium; */
+    font-family: 'NewYorkTimes';
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    font-family: Libre Franklin;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 15px;
+}
+#date {
+    font-size: 16px;
+    margin-left: 20px; 
+}
+.separator {
+    border-top: 2px solid #ddd; 
+    margin: 20px 0; 
+}
+
+/*KEISHA*/
+.outergrid{
+    display: grid;
+    grid-template-columns: 65% 1% 34%;
+    grid-gap: 15px;
+}
+
+.outergrid > div{
+    /*border: 2px solid red;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-blue{
+    display: grid;
+    grid-template-rows: auto auto;
+    /*grid-gap: 5px;*/
+}
+
+.innergrid-l-blue > div{
+    /*border: 2px solid blue;
+    padding: 10px;*/
+    gap: 10px;
+    justify-content: right;
+}
+
+.innergrid-l-green{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.innergrid-l-green > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.innergrid-l-green3 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green4{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.innergrid-l-green4 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green5{
+    display: grid;
+    grid-template-columns: auto 3px auto;
+}
+
+.innergrid-l-green5 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green6{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.innergrid-l-green6 > div{
+    /*border: 2px solid green;
+    gap: 10px;
+    padding: 10px;*/
+}
+
+.innergrid-l-green7{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.innergrid-l-green7 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green8{
+    display: grid;
+    grid-template-columns: auto 1px auto 1px auto;
+}
+
+.innergrid-l-green8 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-l-green9{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.innergrid-l-green9 > div{
+    /*border: 2px solid green;*/
+    gap: 10px;
+    /*padding: 10px;*/
+}
+
+.innergrid-l-pink5{
+    align-items: center;
+}
+
+.innergrid-l-photo{
+    text-align: right;
+}
+
+
+.innergrid-r-blue{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.innergrid-r-blue > div{
+   /* border: 2px solid blue;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.innergrid-r-green > div{
+   /* border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green2{
+    display: grid;
+    grid-template-columns: auto 1px auto;
+}
+
+.innergrid-r-green2 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green3{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.innergrid-r-green3 > div{
+   /* border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green4{
+    display: grid;
+    grid-template-columns: 290px 90px;
+    align-items: center;
+}
+
+.innergrid-r-green4 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green5{
+    display: grid;
+    grid-template-columns: 290px 90px;
+    align-items: center;
+}
+
+.innergrid-r-green5 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+.innergrid-r-green6{
+    display: grid;
+    grid-template-columns: 290px 90px;
+    align-items: center;
+}
+
+.innergrid-r-green6 > div{
+    /*border: 2px solid green;
+    padding: 10px;*/
+    gap: 10px;
+}
+
+bigtitle{
+    font-family: Cheltenham;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+mediumtitle{
+    font-family: Cheltenham;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(23, 23, 23);
+    margin-bottom: 3px;
+}
+
+
+mediumtitle-s{
+    font-family: Cheltenham;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(12, 12, 12);
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+subtitle{
+    font-family: Imperial;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: rgb(92, 92, 92);
+}
+
+minread{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    color:rgb(72, 72, 72);
+}
+
+minread-s{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    color:rgb(72, 72, 72);
+
+}
+
+smalltitle{
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    display:block;
+}
+
+smalltitle-mod{
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    display:inline-block;
+}
+
+smalltitleitalic{
+    font-family: Cheltenham;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(72, 72, 72);
+    display: inline-block;
+    margin-bottom: 3px; 
+}
+
+writer{
+    font-family: Cheltenham;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    color: rgb(72, 72, 72);
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+photocaption{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    margin-top: 6px;
+    text-align: right;
+    color: rgb(72, 72, 72)          
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.vl-kei{
+    border-left: 1px solid lightgrey;
+}
+
+/*CATHERINE*/
+.section-seperator {
+height: 1px;
+width: 1200px ; 
+background: rgb(23, 23, 23);
+display: block;
+}
+
+/* More News Section */
+.subheading-title{
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    display:block;
+}
+
+.left-news{
+    vertical-align: top;
+}
+
+.news-title{
+    font-family: Cheltenham;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(23, 23, 23);
+    margin-bottom: 3px;
+}
+
+.news-description{
+    font-family: Imperial;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: rgb(92, 92, 92);
+    
+}
+
+.news-read{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    color:rgb(72, 72, 72);
+    
+}
+.news-hseperator{
+    height: 1px;
+
+    background: rgb(233, 233, 233);
+}
+
+.middle-news{
+    vertical-align: top;
+}
+.mnews-image{
+    width: 522px;
+    
+}
+
+.news-vseperator{
+    display: none;
+    border-left: 6px rgb(23, 23, 23);
+    height: 500px;
+    position:absolute;
+    left: 50%;
+}
+
+.image-source{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    margin-top: 6px;
+    text-align: right;
+    color: rgb(74, 74, 74)
+}
+
+.right-news{   
+    vertical-align: top;
+
+}
+
+/* Well Section */
+.well-title{
+    font-family: Cheltenham;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgb(12, 12, 12);
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.well-image{
+    width:213px;
+    height: 142.266px;
+}
+
+
+.well-read{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    color: rgb(114, 114, 114);
+}
+/* Culture Section */
+
+.culture-mainimage{
+    width: 830.9px;
+}
+
+.culture{
+    text-align: center;
+}
+.culture-maintitle{
+    font-family: Cheltenam;
+    font-weight: thin;
+    font-size: 28px;
+    line-height: 32px;
+    width: 583.49px;
+    color: rgb(90,90,90);
+    
+}
+.culture-maindesc{
+    font-family: Imperial;
+    font-size: 14px;
+    line-height: 19px;
+    width: 583.49px;
+    border:3px rgb(12, 12, 12);
+    color: rgb(90,90,90);
+}
+.culture-read{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color:rgb(92, 92, 92);
+
+}
+.culture-image{
+    width:151.95px
+}
+
+/* The Athletic Section*/
+
+.subheadingMod-title{
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 8px;
+    display:inline-block;
+}
+.additional-subheading{
+    font-family: Cheltenham;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(72, 72, 72);
+    display: inline-block;
+    margin-bottom: 3px; 
+}
+
+.athletic-image{
+    width: 275.25px;
+}
+
+.reccomend-image{
+    width: 521.84px;
+    height: 347.89px;
+}
+
+.games-image{
+    width: 90.3px;
+    height: 90.3px;
+}
+
+
+
+/*KEVIN*/
+
+/* Define the grid container */
+.grid-container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-gap: 10px; /* Gap between grid items */
+}
+.grid-container2  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Three equal columns */
+    grid-gap: 10px; /* Gap between grid items */
+}
+.grid-containerFooter  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; /* Three equal columns */
+    grid-gap: 10px; /* Gap between grid items */
+}
+/* Define grid items */
+.grid-item-border  {
+    /*background-color: #ddd;*/
+    padding: 20px;
+    text-align: left;
+    border-right: 1px solid grey;
+    font-size: 14px;
+    display: flex;
+    width: 350px;
+}
+.grid-item-noborder  {
+    /*background-color: #ddd;*/
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    width: 350px;
+}
+.grid-item-vertical{
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    font-family: Imperial;
+    line-height:18px;
+    /*border: 1px solid black;*/
+}
+
+.grid-item-footer{
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 0;
+    color:black;
+}
+
+.grid-item-verticalBorder{
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    font-family: Libre Franklin;
+    border-right: 1px solid black;
+    /*border: 1px solid black;*/
+}
+.games-image {
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.news-image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+h3,h4{
+    vertical-align: top;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 22px;
+    color:black;
+}
+.vertical-line {
+    border-left: 1px solid grey; /* Adjust the color and thickness as needed */
+    height: 600px; /* Adjust the height as needed */
+    margin-left: 100px;
+}
+.short-hr {
+    border: 1px solid #CCCCCC; /* Border style (adjust color and thickness as needed) */
+    width: 150px; /* Width of the horizontal line (adjust as needed) */
+    margin-bottom: 20px;
+}
