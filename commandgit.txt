@@ -25,3 +25,5 @@ git merge calandra -> merge kodingan main dengan branch kalian
 
 git push origin main
 
+change directory:
+cd nyt
